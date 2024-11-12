@@ -1,0 +1,178 @@
+.main-container{
+    margin-top: 45px;
+    margin-left: 20px;
+    max-width: 390px;
+    height: 980px;
+}
+
+.top-section{
+    max-width: 390px;
+    height: 100px;
+    display: grid;
+
+}
+
+.h1{
+    font-size: 24px;
+}
+
+.student-developer{
+    /* margin-top: 10px; */
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--pink-color-main);
+}
+
+.txt-presentation{
+    font-size: 10px;
+}
+
+.logo-container{
+    width: 385px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-top: 1px solid #E7E1E2;
+    border-bottom: 1px solid #E7E1E2;
+}
+
+.logo-icon{
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    padding-left: 4px;
+    font-size: 11px;
+    border-radius: 10%;
+    background-color: var(--pink-color-main);
+}
+
+.work-exp-section{
+    margin-top: 20px;
+    height: 450px;
+}
+
+
+.h2-work-exp{
+    font-size: 14px;
+}
+
+.work-h2-line{
+    display: flex;
+    column-gap: 252px;
+    align-content: center;
+}
+
+.pink-main-line{
+    position: relative;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    /* margin-right: 0; */
+    background-color: var(--pink-color-main);
+}
+
+.pink-main-line::after{
+    content: '';
+    position: absolute;
+    left: 3px;
+    width: 50px;
+    height: 6px;
+    background-color: var(--pink-color-main);
+}
+
+.div-exp-list-wrapper{
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 1px solid #E7E1E2;
+}
+
+.job-currently{
+    position: relative;
+    display: grid;
+    gap: 4px;
+}
+
+.job-currently-marker{
+    content: '';
+    position: absolute;
+    right: 385px;
+    top: -2px;
+}
+
+.job-years-span{
+    color: var(--pink-color-main);
+    font-size: 8px;
+}
+
+.job-previous{
+    position: relative;
+    display: grid;
+    gap: 4px;
+}
+
+.job-previous-marker{
+    content: '';
+    position: absolute;
+    top: -2;
+    right: 385px;
+}
+
+.job-2009-2010{
+    position: relative;
+    display: grid;
+    gap: 4px;
+}
+
+.job-2009-2010-marker{
+    content: '';
+    position: absolute;
+    top: -2;
+    right: 385px;
+}
+
+.references{
+    max-width: 390px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.references-h2-line{
+    display: flex;
+    column-gap: 96px;
+    align-content: center;
+}
+
+.h2-references{
+    width: 250px;
+    font-size: 14px;
+}
+
+.references-bosses-or-clients{
+    width: 175px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 25px;
+   
+}
+
+.bookmark{
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 91%, 0 100%);
+    background-color: var(--pink-color-main);
+}
+
+.bookmark-span{
+    font-size: 10px;
+    color: var(--pink-color-main);
+}
+
+.references-span{
+    font-size: 10px;
+}

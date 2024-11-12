@@ -1,0 +1,115 @@
+.aside{
+    position: relative;
+    margin-top:125px;
+    width: 210px;
+    height: 675px;
+    padding: 100px 25px 25px 25px;
+    display: grid;
+    gap: 35px;
+    color: white;
+    background-color: black;
+}
+
+.aside-contacts-h2-line{
+    display: flex;
+    align-items: center;
+    column-gap: 66px;
+}
+
+.aside-skills-h2-line{
+    display: flex;
+    align-items: center;
+    column-gap: 51px;
+}
+
+.aside-education-h2-line{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+
+.pink-aside-line{
+    position: relative;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    /* margin-right: 0; */
+    background-color: var(--pink-color-aside);
+}
+
+.pink-aside-line::after{
+    content: '';
+    position: absolute;
+    left: 3px;
+    width: 50px;
+    height: 6px;
+    background-color: var(--pink-color-aside);
+}
+
+.photo{
+    content: '';
+    position: absolute;
+    top: -80px;
+    left: 30px;
+    width: 149px;
+    height: 151px;
+    background-image: url(../img/java-photo-180px.jpg);
+    width: 149px;
+    border-radius: 15%;
+}
+
+.aside-parts{
+    display: grid;
+    gap: 1px;
+}
+
+.aside-contacts{
+    display: grid;
+}
+
+.h2-aside{
+    font-size: 14px;
+}
+
+.aside-span{
+    font-size: 10px;
+}
+
+.circles{
+    margin-top: 10px;
+    height: 6px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 4px;
+}
+
+.circle{
+    width: 8px;
+    height: 8px;
+    clip-path: circle(50%);
+    background-color: #4C1F2D;
+}
+
+.circle_filled{
+    width: 8px;
+    height: 8px;
+    clip-path: circle(50%);
+    background-color: var(--pink-color-aside);
+}
+
+.education-IT{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+}
+
+.web-technology{
+    font-size: 11px;
+    color: var(--pink-color-aside);
+}
+
+.work-expierence-aside-hidden{
+    display: none;
+}

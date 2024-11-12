@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p,h1,h2,h3,h4 {
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+body{
+    min-width: 320px;
+    word-break: normal;
+    font-family: 'Roboto' , sans-serif;
+}
+
+:root{
+    --pink-color-aside: #ff2D68;
+    --pink-color-main: #f0356d;
+}
+
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.body-container{
+    margin: 0 auto;
+    max-width: 630px;
+    height: 900px;
+    display: flex;
+    padding-left: 10px;
+}
